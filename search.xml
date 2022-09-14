@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>API9</title>
+      <link href="/2022/09/20/10eeb2b0.html"/>
+      <url>/2022/09/20/10eeb2b0.html</url>
+      
+        <content type="html"><![CDATA[<div class="post">    <div class="post-content" id="peak">    </div>    </div><script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script><script>    $.ajax({      url: "https://xiaobapi.top/api/xb/api/cos.php",      type: "GET",      contextType: "application/json;charset=utf-8",      success: function (res) {        //获取返回数据        var json = res;        var data_link = json.data.image;        //获取元素开始插入        var main = document.getElementById('peak');        var p = document.createElement("p");        var a = document.createElement("a");        var img = document.createElement("img");        //a.setAttribute("href", data_link[i]);        a.setAttribute("class", "fancybox");        a.setAttribute("rel", "gallery");        img.src=data_link;        a.appendChild(img);        p.appendChild(a);        main.appendChild(p);      },      error: function (err) {          console.log(err)        alert("API is expire！")      }    });  </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> HTML </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>API7</title>
       <link href="/2022/09/20/f7569fb7.html"/>
       <url>/2022/09/20/f7569fb7.html</url>
